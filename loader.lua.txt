@@ -146,8 +146,8 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-	DiscordLib:Notification("Th�ng B�o" , "Welcome to Godx� Hub" , 6 ,16761490896 )
-	DiscordLib:Notification("Th�ng B�o" , "V�o Discord Godx� Hub � Nhn Th�ng B�o Cp Nht" , 6 ,16761490896 )
+	DiscordLib:Notification()
+	DiscordLib:Notification()
  local UserInputService = game:GetService("UserInputService")
  local TweenService = game:GetService("TweenService")
 
@@ -1610,7 +1610,7 @@ function AttackHit()
     end
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/obfalchx/Godx-Hub/main/icon.txt')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZacHiVer1/ZacHiVerHub/main/loader.lua.txt')))()
 local Window = OrionLib:MakeWindow({Name = "ZacHiVer Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "ZacHiVer"})
 
 local G = Window:MakeTab({
@@ -2262,7 +2262,7 @@ LC:AddDropdown({
     "Cake Island",
     "Cocoa Island",
     "Tiki Outpost New",
-    "Candy Island New⛄"},
+    "Candy Island Newâ›„"},
     Flag = "Select Island",
     Save = true,
     Callback = function(Value)
@@ -2370,7 +2370,7 @@ LC:AddToggle({
                     topos(CFrame.new(-1884.7747802734375, 19.327526092529297, -11666.8974609375))
                 elseif _G.SelectIsland == "Cocoa Island" then
                     topos(CFrame.new(87.94276428222656, 73.55451202392578, -12319.46484375))
-                elseif _G.SelectIsland == "Candy Island New⛄" then
+                elseif _G.SelectIsland == "Candy Island Newâ›„" then
                     topos(CFrame.new(-1014.4241943359375, 149.11068725585938, -14555.962890625))
                 elseif _G.SelectIsland == "Tiki Outpost New" then
                     topos(CFrame.new(-16101.1885, 12.8422165, 380.942291))
@@ -2733,13 +2733,13 @@ local Section = SV:AddSection({
 	Name = "Status"
 })
 
-local Moon = SV:AddLabel("Full Moon : ❌")
-local Mirrage = SV:AddLabel("Mirrage : ❌")
-local Kitsune = SV:AddLabel("Kitsune Island : ❌")
-local Frozen = SV:AddLabel("Frozen Dimension : ❌")
-local Elite = SV:AddLabel("Elite : ❌")
-local DoughtBoss = SV:AddLabel("Dought Boss : ❌")
-local RipIndra = SV:AddLabel("Rip_Indra : ❌")
+local Moon = SV:AddLabel("Full Moon : âŒ")
+local Mirrage = SV:AddLabel("Mirrage : âŒ")
+local Kitsune = SV:AddLabel("Kitsune Island : âŒ")
+local Frozen = SV:AddLabel("Frozen Dimension : âŒ")
+local Elite = SV:AddLabel("Elite : âŒ")
+local DoughtBoss = SV:AddLabel("Dought Boss : âŒ")
+local RipIndra = SV:AddLabel("Rip_Indra : âŒ")
 
 local Section = SV:AddSection({
 	Name = "Servers"
@@ -3402,7 +3402,7 @@ SM:AddToggle({
 	end    
 })
 
-------// function( Cấm m Skid) \\--------------
+------// function( Cáº¥m m Skid) \\--------------
 
 if game.Players.LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
     for i, v in pairs(
@@ -4238,9 +4238,9 @@ end)
 spawn(function()
     while wait() do
         if game:GetService("ReplicatedStorage"):FindFirstChild("rip_indra True Form") or game:GetService("ReplicatedStorage"):FindFirstChild("rip_indra") then
-            RipIndra:Set("Rip Indra : ✅ Spawn")
+            RipIndra:Set("Rip Indra : âœ… Spawn")
         else
-            RipIndra:Set("Rip Indra : ❌ Not Spawn")
+            RipIndra:Set("Rip Indra : âŒ Not Spawn")
         end
     end
 end)
@@ -4248,9 +4248,9 @@ end)
 spawn(function()
     while wait() do
         if game:GetService("ReplicatedStorage"):FindFirstChild("Cake Prince") or game:GetService("ReplicatedStorage"):FindFirstChild("Cake Prince") then
-            DoughtBoss:Set("Dought Boss : ✅ Spawn")
+            DoughtBoss:Set("Dought Boss : âœ… Spawn")
         else
-            DoughtBoss:Set("Dought Boss : ❌ Not Spawn")
+            DoughtBoss:Set("Dought Boss : âŒ Not Spawn")
         end
     end
 end)
@@ -4258,15 +4258,15 @@ end)
 spawn(function()
     while wait() do
         if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
-            Moon:Set("🌕: Full Moon 100%")
+            Moon:Set("ðŸŒ•: Full Moon 100%")
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
-            Moon:Set("🌖’ : Full Moon 75%")
+            Moon:Set("ðŸŒ–â€™ : Full Moon 75%")
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
-            Moon:Set("🌗“ : Full Moon 50%")
+            Moon:Set("ðŸŒ—â€œ : Full Moon 50%")
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
-            Moon:Set("🌘 : Full Moon 25%")
+            Moon:Set("ðŸŒ˜ : Full Moon 25%")
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
-            Moon:Set("🌘: Full Moon 15%")
+            Moon:Set("ðŸŒ˜: Full Moon 15%")
         else
             Moon:Set("Chua co moon dit me may")
         end
@@ -4276,9 +4276,9 @@ end)
 spawn(function()
     while wait() do
         if game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island') then
-            Mirrage:Set("Mirrage : ✅ Spawn")
+            Mirrage:Set("Mirrage : âœ… Spawn")
         else
-            Mirrage:Set("Mirrage : ❌ Not Spawn")
+            Mirrage:Set("Mirrage : âŒ Not Spawn")
         end
     end
 end)
@@ -4286,9 +4286,9 @@ end)
 spawn(function()
     while wait() do
         if game:GetService("Workspace").Map:FindFirstChild('KitsuneIsland') then
-            Kitsune:Set("Kitsune Island : ✅ Spawn")
+            Kitsune:Set("Kitsune Island : âœ… Spawn")
         else
-            Kitsune:Set("Kitsune Island : ❌ Not Spawn")
+            Kitsune:Set("Kitsune Island : âŒ Not Spawn")
         end
     end
 end)
@@ -4296,9 +4296,9 @@ end)
 spawn(function()
     while wait() do
         if game.Workspace._WorldOrigin.Locations:FindFirstChild('Frozen Dimension') then
-            Frozen:Set("Frozen Dimension : ✅ Spawn")
+            Frozen:Set("Frozen Dimension : âœ… Spawn")
         else
-            Frozen:Set("Frozen Dimension : ❌ Not Spawn")
+            Frozen:Set("Frozen Dimension : âŒ Not Spawn")
         end
     end
 end)
@@ -4306,9 +4306,9 @@ end)
 spawn(function()
     while wait() do
         if game:GetService("ReplicatedStorage"):FindFirstChild("Diablo") or game:GetService("ReplicatedStorage"):FindFirstChild("Deandre") or game:GetService("ReplicatedStorage"):FindFirstChild("Urban") or game:GetService("Workspace").Enemies:FindFirstChild("Diablo") or game:GetService("Workspace").Enemies:FindFirstChild("Deandre") or game:GetService("Workspace").Enemies:FindFirstChild("Urban") then
-            Elite:Set("Elite : ✅ Spawn")	
+            Elite:Set("Elite : âœ… Spawn")	
         else
-            Elite:Set("Elite : ❌ Not Spawn")	
+            Elite:Set("Elite : âŒ Not Spawn")	
         end
     end
 end)
@@ -5016,7 +5016,7 @@ spawn(
 
 function DropFruit()
     game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Position = UDim2.new(10.100, 0, 0.100, 0) -- HideUi
-    game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true -- เปิดไว้ถึงจะเช็คได้
+    game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true -- à¹€à¸›à¸´à¸”à¹„à¸§à¹‰à¸–à¸¶à¸‡à¸ˆà¸°à¹€à¸Šà¹‡à¸„à¹„à¸”à¹‰
     local invenfruit = game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame
     wait(.3)
     for i, v in pairs(invenfruit:GetChildren()) do
