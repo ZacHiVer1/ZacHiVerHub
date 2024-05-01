@@ -1610,7 +1610,7 @@ function AttackHit()
     end
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZacHiVer1/ZacHiVerHub/main/loader.lua.txt')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/obfalchx/Godx-Hub/main/icon.txt')))()
 local Window = OrionLib:MakeWindow({Name = "ZacHiVer Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "ZacHiVer"})
 
 local G = Window:MakeTab({
